@@ -31,6 +31,7 @@ import {VRFV2PlusClient} from "chainlink/contracts/src/v0.8/vrf/dev/libraries/VR
  * @title Lotto Contract
  * @author Ayyub
  * @notice This contract implements a lottery system.
+**\
 
 contract LottoContract is VRFConsumerBaseV2Plus {
     // Type declarations:
