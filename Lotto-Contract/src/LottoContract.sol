@@ -27,11 +27,10 @@ pragma solidity ^0.8.19;
 import {VRFConsumerBaseV2Plus} from "chainlink/contracts/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol";
 import {VRFV2PlusClient} from "chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol";
 
-/**
- * @title Lotto Contract
- * @author Ayyub
- * @notice This contract implements a lottery system.
-**\
+//
+ // @title Lotto Contract
+ // @author Ayyub
+ // @notice This contract implements a lottery system.
 
 contract LottoContract is VRFConsumerBaseV2Plus {
     // Type declarations:
